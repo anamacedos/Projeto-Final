@@ -233,7 +233,12 @@ header {
 .imgsection3 img {
     max-width: 80%;
     height: auto;
-    z-index: 2;
+}
+
+.speak{
+    position: absolute;
+    top: 30%;
+    left: 30%;
 }
 
 .comentario {
@@ -241,48 +246,92 @@ header {
     width: 100px; 
     height: auto;
     animation: float 4s infinite ease-in-out;
+    z-index: 0;
 }
 
 .comentario1 {
-    top: 17%;
-    left: 70%;
-    transform: rotate(-20deg);
+    top: 18%;
+    left: 75%;
 }
 
 .comentario2 {
-    top: 20%;
+    bottom: 15%;
     right: 20%;
-    transform: rotate(5deg);
 }
 
 .comentario3 {
-    bottom: 15%;
-    left: 30%;
-    transform: rotate(-15deg);
+    bottom: 55%;
+    left: 52%;
 }
 
 .comentario4 {
-    bottom: 10%;
-    right: 10%;
-    transform: rotate(10deg);
+    bottom: 34%;
+    left: 16%;
 }
 
 .comentario5 {
-    top: 40%;
-    left: 10%;
-    transform: rotate(8deg);
+    top: 68%;
+    left: 37%;
 }
 
 .comentario6 {
-    top: 27%;
+    top: 30%;
     right: 90%;
-    transform: rotate(-12deg);
 }
 
 .comentario7 {
     bottom: 5%;
-    left: 50%;
-    transform: rotate(15deg);
+    left: 4%;
+}
+
+.decor {
+    position: absolute; 
+    z-index: 1;
+}
+
+.comentario1 .decor {
+    width: 250%;
+    height: auto;
+    top: -30%;
+    left: -200%;
+}
+
+#decor3 {
+    width: 190%;
+    height: auto;
+    top: 90%;
+    left: 230%;
+}
+
+.comentario2 .decor {
+    width: 190%;
+    height: auto;
+    top: 45%;
+    left: 290%;
+}
+
+#decor4 {
+    width: 200%;
+    height: auto;
+    top: -60%;
+    left: -130%;
+}
+
+.comentario4 .decor {
+    top: 60%;
+    right: 30%;
+}
+
+#decor2 {
+    width: 200%;
+    height: auto;
+    top: 70%;
+    left: 30%;
+}
+
+.comentario7 .decor {
+    top: 50%;
+    left: 450%;
 }
 
 @keyframes float {
