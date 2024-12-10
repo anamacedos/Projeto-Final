@@ -221,12 +221,21 @@ header {
     background-color: #0056b3;
 }
 
-#importancia {
-    background-color: #87CEEB;
+#comunidade {
+    background-color: #B6CDE2;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
-#comunidade {
+.imgsection3 img {
+    max-width: 90%;
+    height: auto;
+}
+
+#importancia {
     background-color: #90EE90;
     height: 100vh;
 }
