@@ -231,8 +231,67 @@ header {
 }
 
 .imgsection3 img {
-    max-width: 90%;
+    max-width: 80%;
     height: auto;
+    z-index: 2;
+}
+
+.comentario {
+    position: absolute;
+    width: 100px; 
+    height: auto;
+    animation: float 4s infinite ease-in-out;
+}
+
+.comentario1 {
+    top: 17%;
+    left: 70%;
+    transform: rotate(-20deg);
+}
+
+.comentario2 {
+    top: 20%;
+    right: 20%;
+    transform: rotate(5deg);
+}
+
+.comentario3 {
+    bottom: 15%;
+    left: 30%;
+    transform: rotate(-15deg);
+}
+
+.comentario4 {
+    bottom: 10%;
+    right: 10%;
+    transform: rotate(10deg);
+}
+
+.comentario5 {
+    top: 40%;
+    left: 10%;
+    transform: rotate(8deg);
+}
+
+.comentario6 {
+    top: 27%;
+    right: 90%;
+    transform: rotate(-12deg);
+}
+
+.comentario7 {
+    bottom: 5%;
+    left: 50%;
+    transform: rotate(15deg);
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
 }
 
 #importancia {
