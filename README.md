@@ -1,5 +1,5 @@
 # Landing Page - English Theme
-![](image.png)
+![](./img/img%20projeto%20final.png)
 
 - - -
 
@@ -15,5 +15,5 @@ Site do tipo landing page relacionado ao Projeto Final do semestre do curso de D
 ## Créditos do Projeto 
 - [Hugo Lopes](https://www.linkedin.com/in/hugo-lopes-souza-a25b9122a/)
 - Fernado Balliana
-- Ana Julia Macedos
+- Ana Julia
 
