@@ -73,6 +73,7 @@ header {
     position: fixed;
     width: 100vw;
     z-index: 1;
+    transition: opacity 0.5s ease-out;
 }
 
 footer {
@@ -357,41 +358,83 @@ footer {
     background-color: #E0C9C9;
     height: 100vh;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     align-items: center;
     padding: 0 60px;
+    position: relative;
 }
 
 .caixa-texto {
-    background-color: #C4DEF4;
+    background-color: #0056b3;
     border-radius: 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     padding: 30px;
-    width: 570px;
-    text-align: center;
-    transition: transform 0.4s ease;
-}
-
-.caixa-texto h2 {
-    font-size: 40px;
-    font-weight: 500;
-    font-family: "League Spartan", sans-serif;
-    color: white;
+    width: 72vh;
+    height: 65vh;
+    margin-top: 10%;
+    position: absolute;
 }
 
 .caixa-texto p {
-    font-size: 21px;
+    font-size: 30px;
     font-family: "League Spartan", sans-serif;
+    font-weight: 300;
     color: white;
-    margin-top: 10px;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 3vh;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.text_section4 {
-    color: red;
-}
-
-.caixa-texto:hover {
-    transform: translateY(-15px);
+.caixa-texto p:hover {
+    transform: translateX(10px);
+    color: black;
     cursor: pointer;
-    background-color: #0056b3;
+}
+
+p img {
+    width: 40px;
+    height: auto;
+}
+
+.textsection4 {
+    position: absolute;
+    top: 30%;
+    margin-top: 9px;
+    left: 10vh;
+    gap: 20px;
+}
+
+.textsection4 h2 {
+    font-size: 70px;
+    font-weight: 900;
+    font-family: "League Spartan", sans-serif;
+    color: #0056b3;
+    flex-shrink: 0;
+    margin: 0;
+    line-height: 1;
+}
+
+.textsection4 p {
+    font-size: 50px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    margin-top: 8%;
+    color: #1C588B;
+}
+
+h2 span {
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    font-size: 85px;
+}
+
+p span {
+    color: black;
+    font-family: "League Spartan", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 8px;
 }

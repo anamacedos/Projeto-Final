@@ -111,22 +111,46 @@
         </section>
         <section id="importancia" class="grupo">
             <div class="caixa-texto">
-                <h2>Escolha o idioma
-                    que vai <span>TRANSFORMAR</span> seu <span>FUTURO!</span></h2>
-                <ul class="text_section4">
-                    <li> <img src="./img/correto.png" alt="icon"> O inglês é essencial para o sucesso profissional.</li>
-                    <li> <img src="./img/correto.png" alt="icon"> Estudar inglês é investir em você mesmo.</li>
-                    <li> <img src="./img/correto.png" alt="icon">Inglês é a língua do futuro.</li>
-                    <li> <img src="./img/correto.png" alt="icon">Facilita a comunicação com pessoas de diferentes partes do mundo.</li>
-                    <li> <img src="./img/correto.png" alt="icon">O inglês torna o mundo mais acessível e as possibilidades infinitas.</li>
-                    <li> <img src="./img/correto.png" alt="icon">Falar inglês é uma vantagem competitiva no mercado de trabalho globalizado.</li>
-                    <li> <img src="./img/correto.png" alt="icon">Inglês é a língua do futuro.</li>
-                </ul>
+                <p><img src="./img/correto.png" alt="icon"> O inglês é essencial para o sucesso profissional.</p>
+                <p><img src="./img/correto.png" alt="icon"> Estudar inglês é investir em você mesmo.</p>
+                <p><img src="./img/correto.png" alt="icon">Inglês é a língua do futuro.</p>
+                <p><img src="./img/correto.png" alt="icon">Facilita a comunicação com pessoas de diferentes partes do
+                    mundo.</p>
+                <p><img src="./img/correto.png" alt="icon">O inglês torna o mundo mais acessível e as possibilidades
+                    infinitas.</p>
+                <p><img src="./img/correto.png" alt="icon">Falar inglês é uma vantagem competitiva no mercado de
+                    trabalho globalizado.</p>
+                <p><img src="./img/correto.png" alt="icon">Inglês é a língua do futuro.</p>
+            </div>
+            <div class="textsection4">
+                <h2>Escolha o idioma <br>
+                    que vai <span>TRANSFORMAR</span><br> seu <span>FUTURO!</span></h2>
+                <p><span>+ de 40</span>das vagas de nível alto, na <br>
+                    cidade de São Paulo mencionam o Inglês <br>
+                    como necessário, mostra pesquisa recente.</p>
             </div>
         </section>
     </main>
     <footer>
     </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const header = document.querySelector("header");
+            const footer = document.querySelector("footer");
+    
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        header.style.opacity = "0";
+                    } else {
+                        header.style.opacity = "1"; 
+                    }
+                });
+            }, { threshold: 0.1 });
+    
+            observer.observe(footer);
+        });
+    </script>    
 </body>
 
 </html>
