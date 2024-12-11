@@ -1,2 +1,19 @@
-# Projeto-Final
-https://www.figma.com/design/WRnw6BlUL6CML9G6iP5KMD/Untitled-(Copy)?node-id=0-1&node-type=canvas&t=8PBCVRwCSYpvEJSX-0
+# Landing Page - English Theme
+![](image.png)
+
+- - -
+
+## Sobre 
+Site do tipo landing page relacionado ao Projeto Final do semestre do curso de DS. O objetivo deste projeto é colocar em prática os conhecimentos adquiridos sobre HTML e CSS, durante o curso de desenvolvimento de sistemas [SENAI jandira](https://sp.senai.br/unidade/jandira/)
+
+- - -
+- HTML
+- CSS
+- Markdown
+- Git
+
+## Créditos do Projeto 
+- [Hugo Lopes](https://www.linkedin.com/in/hugo-lopes-souza-a25b9122a/)
+- Fernado Balliana
+- Ana Julia Macedos
+
