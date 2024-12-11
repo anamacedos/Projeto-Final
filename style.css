@@ -77,9 +77,75 @@ header {
 }
 
 footer {
-    width: 100%;
-    height: 20vh;
-    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    height: 21vh;
+    align-items: center;
+    background-color: #e0e0e0; 
+    padding: 0 70px;
+}
+
+.footer-column {
+    text-align: center;
+    font-family: "League Spartan", sans-serif;
+}
+
+.footertext {
+    font-size: 25px;
+    text-decoration: none;
+    color: #000;
+}
+
+.footertext:hover {
+    text-decoration: underline;
+}
+
+.footer1 {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    margin-bottom: 5%;
+}
+
+.footer2 {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.footer3 {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    margin-bottom: 5%;
+}
+
+.footer-column img {
+    width: 30px;
+    height: auto;
+}
+
+.footer-column a,
+.footer-column p {
+    margin: 5px 0;
+}
+
+.footer-column:last-child a {
+    display: block; 
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+}
+
+.social-icons img {
+    width: 50px;
+    height: auto;
 }
 
 #inscrevase {
@@ -373,6 +439,8 @@ footer {
     height: 65vh;
     margin-top: 10%;
     position: absolute;
+    border: none;
+    margin: 0;
 }
 
 .caixa-texto p {
